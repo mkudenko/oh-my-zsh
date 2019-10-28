@@ -1,4 +1,4 @@
-<p align="center">
+s<p align="center">
   <img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh">
 </p>
 
@@ -30,24 +30,13 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 #### via curl
 
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/mkudenko/oh-my-zsh/master/tools/install.sh)"
 ```
 
 #### via wget
 
 ```shell
-sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
-#### Manual inspection
-
-It's a good idea to inspect the install script from projects you don't yet know. You can do
-that by downloading the install script first, looking through it so everything looks normal,
-then running it:
-
-```shell
-curl -Lo install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
-sh install.sh
+sh -c "$(wget https://raw.githubusercontent.com/mkudenko/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
 ## Using Oh My Zsh
@@ -90,12 +79,12 @@ We'll admit it. Early in the Oh My Zsh world, we may have gotten a bit too theme
 
 #### Selecting a Theme
 
-_Robby's theme is the default one. It's not the fanciest one. It's not the simplest one. It's just the right one (for him)._
+_Michael's theme is the default one. It's not the fanciest one. It's not the simplest one. It's just the right one (for him)._
 
 Once you find a theme that you'd like to use, you will need to edit the `~/.zshrc` file. You'll see an environment variable (all caps) in there that looks like:
 
 ```shell
-ZSH_THEME="robbyrussell"
+ZSH_THEME="michael"
 ```
 
 To use a different theme, simply change the value to match the name of your desired theme. For example:
